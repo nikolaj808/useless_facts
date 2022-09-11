@@ -9,6 +9,7 @@ class Fact with _$Fact {
     required String id,
     required String text,
     required String source,
+    // ignore: invalid_annotation_target
     @JsonKey(name: 'source_url') required String sourceUrl,
     required String language,
     required String permalink,
